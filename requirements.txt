@@ -1,6 +1,0 @@
-# Full requirements (training + explanation + evaluation)
--r requirements-eval.txt
-torch>=2.1
-transformers>=4.40
-tokenizers>=0.15
-captum>=0.7

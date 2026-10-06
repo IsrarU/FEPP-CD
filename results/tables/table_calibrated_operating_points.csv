@@ -1,0 +1,7 @@
+operating_point,model,tau,TMR_pct,FAR_pct
+tau=0.5,kaggle_iid,0.5,3.623573,28.252195
+TMR<=2%,kaggle_iid,6.1e-05,1.990974,39.824421
+TMR<=5%,kaggle_iid,0.999225,4.990709,22.106943
+tau=0.5,kaggle_noniid,0.5,1.937882,41.260974
+TMR<=2%,kaggle_noniid,0.647372,1.990974,40.782123
+TMR<=5%,kaggle_noniid,0.999959,4.990709,23.623304

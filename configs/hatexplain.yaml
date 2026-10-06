@@ -1,0 +1,17 @@
+# HateXplain (Twitter + Gab), IID federated training, 10 rounds
+dataset: hatexplain
+data_path: data/raw/hatexplain/dataset.json
+model_name: distilbert-base-uncased
+max_len: 128
+dropout: 0.30
+lr: 2.0e-5
+batch_size: 32
+local_epochs: 3
+num_clients: 5
+rounds: 10
+partition: iid
+grad_clip: 1.0
+seed: 42
+threshold: 0.5
+secagg: false
+output_dir: runs/hatexplain

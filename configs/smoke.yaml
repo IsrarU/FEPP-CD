@@ -1,0 +1,19 @@
+# Offline CPU smoke test: tiny random DistilBERT on a synthetic corpus.
+# Exercises Dirichlet partitioning, label flipping and SecAgg in ~1 minute.
+dataset: synthetic
+synthetic_n: 400
+model_name: tiny-random
+max_len: 16
+lr: 3.0e-3
+batch_size: 16
+local_epochs: 2
+num_clients: 3
+rounds: 5
+partition: dirichlet
+alpha: 0.5
+secagg: true
+flip_ratio: 0.2
+flip_client: 1
+seed: 42
+device: cpu
+output_dir: runs/smoke

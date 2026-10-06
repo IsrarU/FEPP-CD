@@ -1,0 +1,18 @@
+# Jigsaw Toxic Comments, Dirichlet non-IID (alpha = 0.5, 5 rounds)
+dataset: jigsaw
+data_path: data/raw/jigsaw/train.csv
+model_name: distilbert-base-uncased
+max_len: 128
+dropout: 0.30
+lr: 2.0e-5
+batch_size: 32
+local_epochs: 3
+num_clients: 5
+rounds: 5
+partition: dirichlet
+alpha: 0.5
+grad_clip: 1.0
+seed: 42
+threshold: 0.5
+secagg: false
+output_dir: runs/jigsaw_noniid

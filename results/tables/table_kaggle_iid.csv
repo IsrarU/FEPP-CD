@@ -1,0 +1,4 @@
+class,precision,recall,f1,support
+Non-harmful (0),0.7671,0.7175,0.7414,1253
+Harmful (1),0.9535,0.9638,0.9586,7534
+Macro avg.,0.8603,0.8406,0.85,8787

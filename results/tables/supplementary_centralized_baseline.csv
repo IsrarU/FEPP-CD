@@ -1,0 +1,2 @@
+run,n,accuracy,macro_f1,weighted_f1,roc_auc,auprc,precision_0,recall_0,f1_0,precision_1,recall_1,f1_1,TN,FP,FN,TP,TMR,FAR
+"Kaggle centralized (supplementary, not in paper)",8787,0.9285,0.8592,0.9298,0.9665,0.9943,0.7286,0.7949,0.7603,0.9654,0.9508,0.958,996,257,371,7163,0.0492,0.2051

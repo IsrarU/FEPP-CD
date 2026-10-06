@@ -1,0 +1,19 @@
+# Kaggle IID, client 0 flips 0.3 of its harmful labels
+dataset: kaggle
+data_path: data/raw/kaggle/cyberbullying_tweets.csv
+model_name: distilbert-base-uncased
+max_len: 128
+dropout: 0.30
+lr: 2.0e-5
+batch_size: 32
+local_epochs: 3
+num_clients: 5
+rounds: 10
+partition: iid
+grad_clip: 1.0
+seed: 42
+threshold: 0.5
+secagg: false
+flip_ratio: 0.3
+flip_client: 0
+output_dir: runs/kaggle_flip_030

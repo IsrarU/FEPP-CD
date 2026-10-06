@@ -1,0 +1,10 @@
+run,ece_10bins
+kaggle_iid,0.0686
+kaggle_noniid,0.0728
+kaggle_flip_010,0.0708
+kaggle_flip_020,0.074
+kaggle_flip_030,0.0751
+jigsaw_iid,0.0356
+jigsaw_noniid,0.0383
+hatexplain,0.2188
+kaggle_centralized,0.0481

@@ -1,0 +1,18 @@
+# Kaggle IID + pairwise-masking Secure Aggregation
+dataset: kaggle
+data_path: data/raw/kaggle/cyberbullying_tweets.csv
+model_name: distilbert-base-uncased
+max_len: 128
+dropout: 0.30
+lr: 2.0e-5
+batch_size: 32
+local_epochs: 3
+num_clients: 5
+rounds: 10
+partition: iid
+grad_clip: 1.0
+seed: 42
+threshold: 0.5
+secagg: true
+secagg_frac_bits: 24
+output_dir: runs/kaggle_iid_secagg

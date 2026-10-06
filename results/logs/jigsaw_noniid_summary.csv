@@ -1,0 +1,2 @@
+dataset,setting,clients,rounds,local_epochs,test_n,accuracy,macro_f1,weighted_f1,roc_auc,auprc,precision_0,recall_0,precision_1,recall_1,TN,FP,FN,TP,TMR_pct,FAR_pct,validation
+Jigsaw Wikipedia Toxic Comments,Non-IID Dirichlet α=0.5,5,5,3,31882,0.9606,0.8732,0.957,0.9706,0.8925,0.9609,0.9967,0.9567,0.6413,28546,94,1163,2079,35.87,0.33,✓ CONSISTENT

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or the released predictions, please cite the paper."
+title: "FEPP-CD: Federated, Explainable, Privacy-Preserving Cyberbullying Detection"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/IsrarU/FEPP-CD"
+authors:
+  - family-names: "Ul Haq"
+    given-names: "Muhammad Israr"
+    affiliation: "Institute of Computing, Kohat University of Science and Technology"
+  - family-names: "Umar"
+    given-names: "Muhammad Muneer"
+    affiliation: "Institute of Computing, Kohat University of Science and Technology"
+    orcid: "https://orcid.org/0000-0003-2459-6470"
+  - family-names: "Mehmood"
+    given-names: "Amjad"
+    affiliation: "Institute of Computing, Kohat University of Science and Technology"
+  - family-names: "Lloret"
+    given-names: "Jaime"
+    affiliation: "Universitat Politecnica de Valencia"
+preferred-citation:
+  type: article
+  title: "A Federated, Secure, and Explainable Transformer Framework for Privacy-Preserving Cyberbullying Detection under Non-IID Social Media Data"
+  authors:
+    - family-names: "Ul Haq"
+      given-names: "Muhammad Israr"
+    - family-names: "Umar"
+      given-names: "Muhammad Muneer"
+    - family-names: "Mehmood"
+      given-names: "Amjad"
+    - family-names: "Lloret"
+      given-names: "Jaime"
+  journal: "Applied Soft Computing"
+  year: 2026
+  notes: "Under review"

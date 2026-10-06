@@ -1,0 +1,6 @@
+client,n_total,n_noncb,n_cb,cb_to_noncb_ratio,heterogeneity
+0,2167,7,2160,308.57,Extreme toxic majority
+1,4416,1146,3270,2.85,Moderate toxic
+2,1322,775,547,0.71,Slight non-toxic majority
+3,26795,2751,24044,8.74,Dominant size + toxic
+4,445,332,113,0.34,Non-toxic majority

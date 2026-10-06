@@ -1,0 +1,20 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install evaluation requirements
+        run: pip install -r requirements-eval.txt pytest
+      - name: Unit tests (torch-free)
+        run: pytest -q
+      - name: Recompute and verify the paper's numbers
+        run: |
+          python scripts/evaluate.py --bootstrap 2000
+          python scripts/verify_paper.py
